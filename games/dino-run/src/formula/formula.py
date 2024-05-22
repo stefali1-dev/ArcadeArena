@@ -12,21 +12,14 @@ SCREEN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
 print(os.curdir)
 
-RUNNING = [pygame.image.load("images/Dino/DinoDuck1.png"),
-           pygame.image.load("images/Dino/DinoRun2.png")]
-JUMPING = pygame.image.load("images/Dino/DinoJump.png")
-DUCKING = [pygame.image.load("images/Dino/DinoDuck1.png"),
-           pygame.image.load("images/Dino/DinoDuck2.png")]
-SMALL_CACTUS = [pygame.image.load("images/Cactus/SmallCactus1.png"),
-                pygame.image.load("images/Cactus/SmallCactus2.png"),
-                pygame.image.load("images/Cactus/SmallCactus3.png")]
-LARGE_CACTUS = [pygame.image.load("images/Cactus/LargeCactus1.png"),
-                pygame.image.load("images/Cactus/LargeCactus2.png"),
-                pygame.image.load("images/Cactus/LargeCactus3.png")]
-BIRD = [pygame.image.load("images/Bird/Bird1.png"),
-        pygame.image.load("images/Bird/Bird2.png")]
-CLOUD = pygame.image.load("images/Other/Cloud.png")
-BG = pygame.image.load("images/Other/Track.png")
+RUNNING = [pygame.image.load("D:/ArcadeArena/games/dino-run/src/images/Dino/DinoDuck1.png"), pygame.image.load("D:/ArcadeArena/games/dino-run/src/images/Dino/DinoRun2.png")]
+JUMPING = pygame.image.load("D:/ArcadeArena/games/dino-run/src/images/Dino/DinoJump.png")
+DUCKING = [pygame.image.load("D:/ArcadeArena/games/dino-run/src/images/Dino/DinoDuck1.png"), pygame.image.load("D:/ArcadeArena/games/dino-run/src/images/Dino/DinoDuck2.png")]
+SMALL_CACTUS = [pygame.image.load("D:/ArcadeArena/games/dino-run/src/images/Cactus/SmallCactus1.png"), pygame.image.load("D:/ArcadeArena/games/dino-run/src/images/Cactus/SmallCactus2.png"), pygame.image.load("D:/ArcadeArena/games/dino-run/src/images/Cactus/SmallCactus3.png")]
+LARGE_CACTUS = [pygame.image.load("D:/ArcadeArena/games/dino-run/src/images/Cactus/LargeCactus1.png"), pygame.image.load("D:/ArcadeArena/games/dino-run/src/images/Cactus/LargeCactus2.png"), pygame.image.load("D:/ArcadeArena/games/dino-run/src/images/Cactus/LargeCactus3.png")]
+BIRD = [pygame.image.load("D:/ArcadeArena/games/dino-run/src/images/Bird/Bird1.png"), pygame.image.load("D:/ArcadeArena/games/dino-run/src/images/Bird/Bird2.png")]
+CLOUD = pygame.image.load("D:/ArcadeArena/games/dino-run/src/images/Other/Cloud.png")
+BG = pygame.image.load("D:/ArcadeArena/games/dino-run/src/images/Other/Track.png")
 
 # Commands
 print("")

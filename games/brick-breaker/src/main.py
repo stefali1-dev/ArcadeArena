@@ -90,7 +90,7 @@ class Game(tk.Canvas):
         self.levelNum = level
         self.bricks = []
         try:
-            file = open("levels/" + str(level)+".txt")
+            file = open("D:/ArcadeArena/games/brick-breaker/src/levels/" + str(level)+".txt")
             content = list(file.read().replace("\n", ""))[:(self.bricksNbByLine*self.linesNb)]
             file.close()
             for i, el in enumerate(content):

@@ -37,7 +37,7 @@ def run(mode):
     direction = 'RIGHT'
     change_to = direction
     score = 0
-    difficulty = 50
+    difficulty = 30
 
     if mode == "EASY":
         difficulty = 10

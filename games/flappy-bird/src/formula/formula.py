@@ -17,7 +17,7 @@ game_window = pygame.display.set_mode((frame_size_x, frame_size_y))
 clock = pygame.time.Clock()
 
 # Image configuration
-img = pygame.image.load('images/flap.png')
+img = pygame.image.load('D:/ArcadeArena/games/flappy-bird/src/images/flap.png')
 img_width = img.get_size()[0]
 img_height = img.get_size()[1]
 

@@ -14,7 +14,7 @@ pygame.font.init()
 
 # Add music
 pygame.mixer.init()
-pygame.mixer.music.load('tetris.mp3')
+pygame.mixer.music.load('D:/ArcadeArena/games/tetris/src/tetris.mp3')
 pygame.mixer.music.play(-1, 0.0)
 
 # Global variables
@@ -30,9 +30,9 @@ block_size = 30  # Size of block
 top_left_x = (s_width - play_width) // 2
 top_left_y = s_height - play_height - 50
 
-filepath = 'highscore.txt'
-font_title = 'font_title.ttf'
-font_text = 'font_text.ttf'
+filepath = 'D:/ArcadeArena/games/tetris/src/highscore.txt'
+font_title = 'D:/ArcadeArena/games/tetris/src/font_title.ttf'
+font_text = 'D:/ArcadeArena/games/tetris/src/font_text.ttf'
 
 # Tetriminos:
 # 0 - S - Green

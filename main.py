@@ -13,9 +13,12 @@ pygame.display.set_caption("Arcade Arena")
 PINK = (255, 192, 203)
 VIOLET = (238, 130, 238)
 YELLOW = (255, 255, 0)
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
 
 # Load background image
 background = pygame.image.load("background.jpg")
+background = pygame.transform.scale(background, (WINDOW_WIDTH, WINDOW_HEIGHT))
 
 # Define button dimensions
 BUTTON_WIDTH = 200
@@ -30,7 +33,7 @@ button_positions = [
     (300, 200),  # Pacman
     (550, 200),  # Snake
     (50, 300),  # Space Invasion
-    (300, 300),  # (Empty)
+    (300, 300),  # Tetris
     (550, 300)  # Exit
 ]
 
@@ -75,6 +78,18 @@ while running:
 
     # Draw background
     window.blit(background, (0, 0))
+
+    # Draw title
+    font = pygame.font.Font(None, 80)
+    text = font.render("Arcade Arena", True, WHITE, BLACK)
+    text_rect = text.get_rect()
+    text_rect.centerx = WINDOW_WIDTH // 2
+    text_rect.top = 20
+    window.blit(text, text_rect)
+
+    # Draw border around title
+    border_rect = text_rect.inflate(10, 10)
+    pygame.draw.rect(window, BLACK, border_rect, 2)
 
     # Draw buttons
     for i, (x, y) in enumerate(button_positions):
