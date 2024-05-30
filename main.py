@@ -26,23 +26,24 @@ BUTTON_HEIGHT = 50
 
 # Define button positions
 button_positions = [
-    (50, 100),  # Brick Breaker
-    (300, 100),  # Dino Run
-    (550, 100),  # Flappy Bird
-    (50, 200),  # Mario
-    (300, 200),  # Pacman
-    (550, 200),  # Snake
-    (50, 300),  # Space Invasion
-    (300, 300),  # Tetris
-    (550, 300)  # Exit
+    (200, 100),  # Brick Breaker
+    (400, 100),  # Dino Run
+    (200, 200),  # Flappy Bird
+    (400, 200),  # Minesweeper
+    (200, 300),  # Pacman
+    (400, 300),  # Snake
+    (200, 400),  # Space Invasion
+    (400, 400),  # Tetris
+    (300, 500)   # Exit, centered
 ]
+
 
 # Define game paths
 game_paths = {
     "Brick Breaker": "games/brick-breaker/src/main.py",
     "Dino Run": "games/dino-run/src/main.py",
     "Flappy Bird": "games/flappy-bird/src/main.py",
-    "Mario": "games/mario/src/main.py",
+    "Minesweeper": "games/minesweeper/main.py",
     "Pacman": "games/pacman/src/main.py",
     "Snake": "games/snake/src/main.py",
     "Space Invasion": "games/space-invasion/src/main.py",
@@ -52,7 +53,7 @@ game_paths = {
 # Define button text
 button_text = [
     "Brick Breaker", "Dino Run", "Flappy Bird",
-    "Mario", "Pacman", "Snake",
+    "Minesweeper", "Pacman", "Snake",
     "Space Invasion", "Tetris", "Exit"
 ]
 
